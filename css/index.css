@@ -1,0 +1,113 @@
+
+
+.hero {
+
+    background-color: var(--background-gray);
+
+}
+
+.hero-title {
+
+  /*  font-family: Roboto, san-serif;*/
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--white-text);
+
+}
+
+.hero-button {
+
+  /*  font-family: Roboto, san-serif;*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    color: var(--white-text);
+    background-color: var(--blue-text);
+
+}
+
+.work-list-title {
+
+   /* font-family: Roboto, san-serif;*/
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    
+    color: var(--black-text);
+    
+
+}
+
+.work-list-deskription {
+
+   /* font-family: Roboto, san-serif;*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+   
+    color: var(--gray-text-phone);
+
+}
+
+.mission {
+
+    background-color: var(--white-text);
+
+}
+
+.mission-title {
+
+  /*  font-family: Roboto, san-serif;*/
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--black-text);
+
+}
+
+.team {
+
+    background-color: var(--background-section-four);
+
+}
+
+.team-title {
+
+ /*  font-family: Roboto, san-serif;*/
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--black-text);
+   
+}
+
+.team-name {
+    
+   /* font-family: Roboto, san-serif;*/
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--black-text);
+
+}
+
+.team-name-position {
+
+   /* font-family: Roboto, san-serif;*/
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    
+    color: var(--gray-text-phone);
+
+}
+
