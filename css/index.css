@@ -1,19 +1,38 @@
+.container {
 
+    
+    width: 1170px;
+    padding: 0 15px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    
+    
+    }
 
-.hero {
+.hero .container{
+
+    text-align: center;
+    min-height: 600px;
 
     background-color: var(--background-gray);
 
 }
 
+
 .hero-title {
 
-  /*  font-family: Roboto, san-serif;*/
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+ 
+    
     text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
 
     color: var(--white-text);
 
@@ -21,23 +40,42 @@
 
 .hero-button {
 
-  /*  font-family: Roboto, san-serif;*/
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-
+    
     color: var(--white-text);
     background-color: var(--blue-text);
 
 }
 
-.work-list-title {
+.work .container {
 
-   /* font-family: Roboto, san-serif;*/
+    display: flex;
+    margin: 0 auto;
+}
+
+.work-list {
+
+    display: flex;  
+    padding-top: 120px;
+ 
+  
+}
+
+.work-list-item:not(:last-child) {
+
+    margin-right: 10px;
+
+}
+
+.work-list-title {
+ 
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
     text-transform: uppercase;
+    margin-bottom: 10px;
     
     color: var(--black-text);
     
@@ -45,11 +83,12 @@
 }
 
 .work-list-deskription {
-
-   /* font-family: Roboto, san-serif;*/
+  
+    margin-bottom: 60px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+
    
     color: var(--gray-text-phone);
 
@@ -57,13 +96,17 @@
 
 .mission {
 
+    display: flex;
+    margin: 0 auto;
     background-color: var(--white-text);
 
 }
 
 .mission-title {
 
-  /*  font-family: Roboto, san-serif;*/
+    margin-top: 94px;
+    margin-bottom: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -71,16 +114,37 @@
     color: var(--black-text);
 
 }
+ .mission-list {
+
+    display: flex;
+
+ }
+
+ .mission-list-item:not(:last-child) {
+
+    padding-right: 30px;
+
+ }
+
+ .mission-list-item {
+
+    margin-bottom: 128px;
+
+ }
+
 
 .team {
 
+    display: flex;
     background-color: var(--background-section-four);
 
 }
 
 .team-title {
 
- /*  font-family: Roboto, san-serif;*/
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 94px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -89,9 +153,30 @@
    
 }
 
+.team-list {
+
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.team-list-item {
+
+    margin-bottom: 94px;
+
+}
+
+.team-list-item:not(:last-child) {
+
+    padding-right: 30px;
+
+}
+
+
 .team-name {
     
-   /* font-family: Roboto, san-serif;*/
+    text-align: center;
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -102,7 +187,8 @@
 
 .team-name-position {
 
-   /* font-family: Roboto, san-serif;*/
+    text-align: center;
+    margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;

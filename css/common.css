@@ -1,6 +1,13 @@
 
-    /*--main-font: "Roboto", san-serif
-    --secondary-font: "Raleway", san-serif*/
+
+*,
+*::break-before
+*::after {
+
+box-sizing: inherit;
+
+}
+   
     
 :root {
     --white-text: rgba(255, 255, 255, 1);
@@ -56,10 +63,34 @@ a {
 
 .page-header {
 
+    display: flex;
+    align-items: center;
+  
     background-color: var(--white-text);
 
 
 }
+
+.page-header .container {
+
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.page-header .navigation {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+        
+}
+
 
 p {
 
@@ -67,16 +98,37 @@ p {
 
 }
 
+.container {
+
+    width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+
+
+}
+
+
 button {
 
     border: none;
 
 }
 
+.navigation-list .navigation-list-item{
+
+    margin-left: 50px;
+
+
+}
 
 .navigation-list {
 
-   /* font-family: Roboto, san-serif;*/
+   display: flex;
+   padding-top: 32px;
+   padding-bottom: 32px;
+  
     font-weight: 500;
     font-size: 14px;
     line-height: 1,15;
@@ -86,7 +138,7 @@ button {
 
 .navigation-link {
 
-   /* font-family: Roboto, san-serif;*/
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     Line-height: 1,14;
@@ -97,14 +149,13 @@ button {
 
 .navigation-list .navigation-link.current {
 
- color: var(--blue-text);
+    color: var(--blue-text);
 
 }
 
   
 .contacts-link {
 
-   /* font-family: Roboto, san-serif;*/
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -143,7 +194,18 @@ button {
 
 .contacts {
 
+    display: flex;
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+
+.contacts .contacts-link:last-child{
+
+    margin-left: 50px;
 
 }
 
@@ -164,27 +226,38 @@ button {
 
 .footer {
 
+    max-height: 252px;
+   
     background-color: var(--background-gray);
 
 }
 
 .logo-footer {
 
+
     font-family: Raleway, san-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    margin-bottom: 20px;
    
     color: var(--white-text);
 
 }
 
+.footer .container {
+
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
 .address-list-link {
 
-   /* font-family: Roboto, san-serif;*/
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 20px;
+    margin-bottom: 60px;
 
     color: var(--white-text);
 
@@ -192,12 +265,23 @@ button {
 
 .contacts-list-link {
     
-   /* font-family: Roboto, san-serif;*/
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-bottom: 10px;
     
     color: var(--footer-adress);
 
 }
 
+.address-list {
+
+    margin-top: 20px;
+
+}
+
+.address-list-item:not(:last-child) {
+
+    margin-bottom: 9px;
+
+}
