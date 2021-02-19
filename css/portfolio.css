@@ -100,4 +100,10 @@
    margin-bottom: 50px; 
    border: 1px solid var(--white-text);
 
+} 
+
+.projects-cardr-description {
+
+padding: 20px 24px;
+
 }
