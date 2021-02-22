@@ -108,7 +108,7 @@ p {
 
 section {
 
-    padding-top: 94px;
+    padding-bottom: 94px;
    
    }
 
@@ -120,13 +120,18 @@ button {
 
 .navigation-list {
 
-   display: flex;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,15;
     color: var(--gray-text-phone);
 }
 
+.navigation-list-item {
+
+    margin-left: 50px;
+
+}
 
 .navigation-link {
 
@@ -157,8 +162,6 @@ button {
 .contacts-link {
 
     display: inline-block;
-    /*padding-top: 32px;
-    padding-bottom: 32px;*/
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -200,7 +203,6 @@ button {
 
     display: flex;
     font-style: normal;
-    justify-content: space-between;
     margin-left: auto;
 }
 
