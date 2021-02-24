@@ -27,6 +27,7 @@ padding-top: 94px;
    display: flex;
    justify-content: center;
    margin: 0 auto;
+   margin-bottom: 50px;
 
 }
 
@@ -43,8 +44,9 @@ padding-top: 94px;
     line-height: 1.62;
     border: none;
     
+    /*margin-bottom: 50px; */
+    border: 1px solid var(--white-text);
     color: var(--black-text);
-
 }
 
 .buttons-list-item button{
@@ -88,8 +90,8 @@ padding-top: 94px;
    display: flex;
    flex-wrap: wrap;
    margin-top: 50px;
-   margin-left: -20px;
-   margin-top: -20px;
+   margin-left: -30px;
+   margin-top: -30px;
 
 }
 
@@ -100,13 +102,6 @@ padding-top: 94px;
    margin-top: 30px;
   
 }
-
-.buttons-list-item {
-
-   margin-bottom: 50px; 
-   border: 1px solid var(--white-text);
-
-} 
 
 .projects-cardr-description {
 
